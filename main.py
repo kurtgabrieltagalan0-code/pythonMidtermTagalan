@@ -1,3 +1,5 @@
+import option
+
 print("========================================")
 print("SALES RECORD MANAGEMENT SYSTEM")
 print("========================================")
@@ -9,15 +11,8 @@ print("========================================")
 
 option == input('Select an option (1-4): ')
 
+
 if option == '1':
-    input()
-
-if option == '2':
-    input()
-
- if option == '3':
-    input()
-
-if option == '4':
-    input()
-
+    print("Item Name")
+    print("Quantity Sold")
+    print("Price Per Unit")
